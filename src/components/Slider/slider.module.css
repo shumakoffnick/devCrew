@@ -1,0 +1,104 @@
+.sliderBlock{
+    width: 1440px;
+    height: 700px;
+    background-color: #1E252B;
+    transform: translateY(-20px);
+    text-align: center;
+}
+.sliderMine{
+    width: 100px;
+}
+
+.slider{
+    width: 800px;
+    margin-left: 320px;   
+    padding-top: 100px;
+}
+.imageBlock{
+    width: 300px; 
+    position: absolute;  
+}
+.slidersBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.imgInfo{
+    position: relative;
+    margin-top: 200px;
+    float: right;
+    margin-left: 50px;
+    height: 110px;
+    width: 265px;
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 8px;
+    
+}
+.sliderText{
+    padding-top: 100px;
+    width: 393px;
+    height: 180px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.78);
+    z-index: 1;
+}
+.sliderH2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 253, 253, 0.78);
+}
+.sliderH3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 253, 253, 0.55);
+    position: relative;
+}
+.sliderSvg{
+    position: absolute;
+    transform: translateX(-250px);
+    padding-top: 70px;
+}
+@media(max-width: 480px){
+    .sliderBlock{
+        width: 480px;
+    }
+    .slider{
+
+        width: 400px;
+        margin-left: 40px;
+        padding-top: 100px;
+    }
+    .imageBlock{
+        display: none;        
+    }
+    .imgInfo{
+       display: none;
+    }
+    .sliderText{
+        padding-top: 100px;
+        width: 393px;
+        height: 180px;
+        position: relative;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.015em;
+        color: rgba(255, 255, 255, 0.78);
+        z-index: 1;
+    }
+}

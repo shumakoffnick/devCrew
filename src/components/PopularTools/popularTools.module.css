@@ -1,0 +1,41 @@
+.popularTools{
+    background-color: #1E252B;
+    width: 1440px;
+    text-align: center;
+}
+.popularTitle{
+    font-size: 48px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+}
+.populatText{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: 'Poppins', sans-serif;
+}
+.cardBtnLoad{
+    width: 184px;
+    height: 64px;
+    color: #FF6E30;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.cardBtnLoad:hover{
+    background-color: #FF6E30;
+    color: #FDF5FF;
+
+}
+@media(max-width: 480px){
+    .popularTools{
+        width: 480px;
+    }
+}

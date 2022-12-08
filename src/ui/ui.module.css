@@ -1,0 +1,156 @@
+.logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+}
+.logoBox{
+    width: 38px;
+    height: 38px;
+    background-color: #FF6E30;
+    margin-left: 20px;
+    display: flex;
+    position: absolute;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    z-index: 1;
+    padding-left: 70px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.menu{
+    display: flex;
+    width: 431px;
+    justify-content: space-around;
+}
+.menuBlock{
+    display: block;
+    padding-top: 30px;
+}
+.menuLink{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    transition: all ease 0.2s;
+}
+.menuLink:hover{
+    color: #FF6E30;
+}
+.reactIcons{
+    color: rgba(255, 255, 255, 0.55);
+}
+.signBtn{
+    color: rgba(255, 255, 255, 0.78);
+    opacity: 0.78;
+    cursor: pointer;
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    transition: all ease 0.2s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.signBtn:hover{
+    background-color: #FF6E30;
+    color: #FDF5FF;
+    opacity: 1;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardItem{    
+    width: 392px;
+    height: 294px;
+    margin-top: 100px;
+    text-align: left;
+    border-radius: 15px;
+    transition: all ease 0.2s;
+}
+.cardItem:hover .cardSubtitle{
+    color: #FFA537;
+}
+.cardItem:hover{
+    background: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(25px);
+}
+.cardInfoBlock{
+    display: flex;
+    padding: 20px;
+}
+.cardTitleBlock{
+    margin-left: 20px;
+}
+.cardTitle{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+.cardBottomBlock{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 24px;
+    
+}
+.cardSubtitle{
+    color: #FFA5378C;
+}
+.cardText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.78);
+    padding-left: 30px;
+}
+.cardHeartIcon{
+    padding-right: 40px;
+    cursor: pointer;
+}
+.cardHeartIconRed{
+    padding-right: 40px;
+    cursor: pointer;
+    color: red;
+}
+.cardBtnVisit{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.cardItem:hover .cardBtnVisit{
+    background-color: #FF6E30;
+    color: #FDF5FF;
+}
+@media(max-width: 480px){
+    .menu{
+        display: none;
+        
+    }
+    .sign{
+        transform: translateX(100px);
+        margin-top: 40px;
+    }
+    .signBtn:hover{
+    background-color: #FF6E30;
+    color: #FDF5FF;
+    opacity: 1;
+    }
+    .card{
+        display: block;
+    }
+}

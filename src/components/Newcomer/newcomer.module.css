@@ -1,0 +1,57 @@
+.newcomer{
+    width: 1440px;
+    background-color: #1E252B;
+}
+.newcomerBlock{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.newcomerCardBlock{
+    width: 900px;
+    
+}
+.newcomerTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    width: 401px;
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+.newcomerText{
+    width: 427px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    padding-top: 50px;
+}
+.newcomerBtn{
+    width: 198px;
+    height: 58px;
+    background-color: #FF6E30;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Poppins';
+    margin-top: 50px;
+    cursor: pointer;
+}
+@media(max-width: 480px){
+    .newcomer{
+        width: 480px;
+    }
+    .newcomerBlock{
+        display: block;
+    }
+    .newcomerInfoBlock{
+        padding-left: 20px;
+    }
+    .newcomerCardBlock{
+        width: 480px;
+    }
+}
