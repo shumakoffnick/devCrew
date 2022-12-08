@@ -142,8 +142,10 @@
         
     }
     .sign{
-        transform: translateX(100px);
         margin-top: 40px;
+    }
+    .signBtn{
+        padding-left: 100px;
     }
     .signBtn:hover{
     background-color: #FF6E30;
